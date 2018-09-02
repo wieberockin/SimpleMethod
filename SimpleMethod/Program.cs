@@ -10,8 +10,16 @@ namespace SimpleMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            HelloWold();
+            Console.ReadLine();
+
         }
+
+        private static void HelloWold()
+        {
+            Console.WriteLine("Hello world!");
+            
+        }
+
     }
 }
